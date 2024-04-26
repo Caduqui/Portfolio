@@ -1,0 +1,250 @@
+/* background-image: url('assets/background.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+24&family=News+Cycle:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Dancing+Script:wght@400..700&family=Jacquard+24&family=News+Cycle:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: #EAF2FD;
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    gap: 300px;
+}
+
+.navegacao__texto {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+}
+
+.apresentacao { 
+    padding: 2% 0 1% 5%;
+    background-color: #F5F5F5;
+}
+
+.apresentacao__imagem{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 100px;
+}
+
+.imagemPerfil {
+    height: 200px;
+}
+
+.apresentacao__titulo {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.apresentacao__subtitulo {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links__texto {
+    font-size: 20px;
+    color: black;
+}
+
+.sobreMim {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    background-color: #EAF2FD;
+    gap: 15px;
+}
+
+.sobreMim__titulo {
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.sobreMim__paragrafo {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.skills__hobbies {
+    padding: 1% 0;
+    background-color: #F5F5F5;
+}
+
+.skill__hobbies__titulo {
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+
+.quadrosContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.quadros {
+    border: 1px solid white;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+
+.quadros__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15% 0 0 0;
+}
+
+.htmlImagem {
+    width: 55px;
+}
+
+.jsImagem {
+    width: 63px;
+}
+
+.cssImagem {
+    width: 48px;
+}
+
+.controleImagem {
+    width: 60px;
+}
+
+.animeImagem {
+    width: 65px;
+}
+
+.livroImagem {
+    width: 60px;
+}
+
+.musculoImagem {
+    width: 65px;
+}
+
+
+.formacao {
+    padding: 1% 5%;
+    background-color: #EAF2FD;
+}
+
+.formacao__texto {
+    text-align: center;
+}
+
+.formacaoAcademica {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.ifmsImagem {
+    width: 260px;
+}
+
+.formacaoAcademica__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 1% 0;
+    align-items: center;
+}
+
+.projetos {
+    padding: 1% 5%;
+    background-color: #F5F5F5;
+}
+
+.projetos__texto {
+    text-align: center;
+}
+
+.projetos__container {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0;
+    gap: 50px;
+}
+
+.projeto__div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.projeto__links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link__texto {
+    color: orange;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.rodape__autor {
+    margin: 1% 0 0 0;
+}
+
+.rodape__ano {
+    margin: 0 0 1% 0;
+}
