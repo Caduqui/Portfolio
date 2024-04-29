@@ -42,6 +42,10 @@ ul {
     gap: 300px;
 }
 
+.navegacao__link {
+    text-decoration: none;
+}
+
 .navegacao__texto {
     font-family: "Dancing Script", cursive;
     font-weight: 400;
@@ -350,6 +354,10 @@ ul {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+.projeto__links__ancora {
+    text-decoration: none;
 }
 
 .projeto__links:hover {
