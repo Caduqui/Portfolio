@@ -18,6 +18,8 @@ ul {
     list-style: none;
 }
 
+/* CABEÇALHO */
+
 .cabecalho {
     display: flex;
     justify-content: space-around;
@@ -31,6 +33,8 @@ ul {
     font-weight: 900;
     font-size: 40px;
     font-style: italic;
+    color: black;
+    text-decoration: none;
 }
 
 .cabecalho__navegacao {
@@ -77,17 +81,52 @@ ul {
 .links {
     display: flex;
     gap: 20px;
+    padding: 1.3% 4%;
+}
+
+.links__div {
+    display: flex;
+    gap: 6px;
+}
+
+.links__link {
+    text-decoration: none;
 }
 
 .links__texto {
     font-size: 20px;
     color: black;
+    margin: 0;
 }
+
+.github {
+    width: 25px;
+    height: 25px;
+}
+
+.linkedin {
+    width: 24px;
+    height: 24px;
+}
+
+.instagram {
+    width: 23px;
+    height: 23px;
+}
+
+.curriculo {
+    width: 23px;
+    height: 23px;
+}
+
+
+
+/* SOBRE MIM */
 
 .sobreMim {
     display: flex;
     flex-direction: column;
-    padding: 2% 5%;
+    padding: 1% 6%;
     background-color: #EAF2FD;
     gap: 15px;
 }
@@ -95,16 +134,24 @@ ul {
 .sobreMim__titulo {
     font-family: "Baskervville", serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 30px;
 }
 
-.sobreMim__paragrafo {
-    font-family: "Baskervville", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
+.sobreMim__div {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
+
+.sobreMim__paragrafo {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0;
+    font-style: italic;
+}
+
+/* SKILLS E HOBBIES */
 
 .skills__hobbies {
     padding: 1% 0;
@@ -114,29 +161,39 @@ ul {
 .skill__hobbies__titulo {
     font-family: "Baskervville", serif;
     font-weight: 700;
-    font-style: normal;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .quadrosContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
 .quadros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid white;
     background-color: white;
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 180px;
 }
 
 .quadros__lista {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15% 0 0 0;
+    padding: 0
+}
+
+.lista__texto {
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    font-style:oblique;
+    font-size: 20px;
 }
 
 .htmlImagem {
@@ -167,14 +224,19 @@ ul {
     width: 65px;
 }
 
+/* FORMAÇÃO ACADÊMICA */
 
 .formacao {
-    padding: 1% 5%;
+    padding: 1% 0;
     background-color: #EAF2FD;
 }
 
 .formacao__texto {
     text-align: center;
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
 }
 
 .formacaoAcademica {
@@ -191,10 +253,26 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
     padding: 1% 0;
     align-items: center;
+    gap: 8px;
 }
+
+.lista__titulo {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 20px;
+}
+
+.lista__paragrafo {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 18px;
+}
+
+/* PROJETOS */
 
 .projetos {
     padding: 1% 5%;
@@ -203,6 +281,8 @@ ul {
 
 .projetos__texto {
     text-align: center;
+    font-family: "Baskervville", serif;
+    font-weight: 700;
 }
 
 .projetos__container {
@@ -218,33 +298,215 @@ ul {
     gap: 40px;
 }
 
-.projeto__links {
+.projeto__imagem {
+    width: 1000px;
+}
+
+.projeto__borda {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    border: 1px solid black;
-    background-color: black;
-    width: 200px;
-    height: 100px;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    padding: 0 1%;
+    gap: 40px;
+}
+
+.projeto__borda__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.projeto__titulo {
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    color: #232323;
+    font-size: 25px;
+    margin: 0;
+}
+
+.projeto__descricao {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    color: #232323;
+    font-size: 20px;
+    margin: 0;
+}
+
+.linkss {
+    display: flex;
+    gap: 30px;
+}
+
+.projeto__links {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #faff00;
+    background-color: #232323;
+    width: 290px;
+    height: 85px;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+}
+
+.projeto__links:hover {
+    background-color: #464646;
 }
 
 .link__texto {
-    color: orange;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: italic;
+    color: #faff00;
 }
+
+/* CONTATO */
+
+.contato {
+    padding: 3% 6%;
+    background-color: #EAF2FD;
+}
+
+.contato__container {
+    display: flex;
+    gap: 40px;
+}
+
+.contato__titulo {
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    font-size: 29px;
+    margin: 0 0 1% 0;
+}
+
+.contato__paragrafo {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 0.1% 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 4% 0 0 0;
+}
+
+.formulario__input {
+    height: 50px;
+    outline: none;
+    border: none;
+    padding: 0 0 0 2%;
+    border-radius: 6px;
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.formulario__textarea {
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 0 0 0 2%;
+    border-radius: 6px;
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.formulario__botao {
+    width: 180px;
+    height: 60px;
+    border-radius: 6px;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: solid 1px #1abc9c;
+    background-color: #1abc9c;
+    color: #fff;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.formulario__input::placeholder {
+    position: absolute;
+    top: 15px;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.formulario__textarea::placeholder {
+    position: absolute;
+    padding: 1% 0 0 0;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.formulario__botao:hover {
+    background-color: #16a085;
+}
+
+/* RODAPE */
 
 .rodape {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
+    background-color: #dddcda;
 }
 
 .rodape__autor {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
     margin: 1% 0 0 0;
 }
 
 .rodape__ano {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
     margin: 0 0 1% 0;
+}
+
+/* obrigadoHTML */
+
+.fundoQuadro {
+    background-color: #dddcda;
+}
+
+.quadroContainer {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0;
+    
+}
+
+.quadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 1800px;
+    height: 150px;
+    padding: 0.5% 2%;
+    background-color: #0F79BA;
+    border-radius: 6px;
+}
+
+.quadro__texto {
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    color: #fff;
 }
