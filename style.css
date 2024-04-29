@@ -303,7 +303,7 @@ ul {
 }
 
 .projeto__imagem {
-    width: 1000px;
+    width: 43%;
 }
 
 .projeto__borda {
@@ -382,6 +382,10 @@ ul {
 .contato__container {
     display: flex;
     gap: 40px;
+}
+
+.contato__imagem {
+    width: 45%;
 }
 
 .contato__titulo {
