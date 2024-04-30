@@ -21,11 +21,15 @@ ul {
 /* CABEÇALHO */
 
 .cabecalho {
-    display: flex;
-    justify-content: space-around;
     padding: 1%;
     background-color: #EAF2FD;
+}
+
+.separacao {
+    display: flex;
     align-items: center;
+    gap: 40px;
+    justify-content: space-around;
 }
 
 .cabecalho__titulo {
