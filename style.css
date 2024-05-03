@@ -29,7 +29,7 @@ ul {
 .cabecalho__separacao {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
     justify-content: space-around;
 }
 
@@ -44,7 +44,7 @@ ul {
 
 .cabecalho__navegacao {
     display: flex;
-    gap: 100px;
+    gap: 80px;
 }
 
 .navegacao__link {
@@ -368,8 +368,8 @@ ul {
     display: flex;
     border: 1px solid #faff00;
     background-color: #232323;
-    width: 290px;
-    height: 85px;
+    width: 247px;
+    height: 75px;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -544,7 +544,7 @@ ul {
 
 /* TABLET */
 
-@media (max-width:768px) {
+@media (max-width:1030px) {
     .cabecalho__titulo {
         font-size: 33px;
     }
@@ -643,7 +643,7 @@ ul {
 
 /* CELULAR */
 
-@media (max-width:360px) {
+@media (max-width:400px) {
     .cabecalho {
         padding: 1% 2% 0 2%;
     }
