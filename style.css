@@ -36,7 +36,7 @@ ul {
 .cabecalho__titulo {
     font-family: "Jacquard 24", system-ui;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: italic;
     color: black;
     text-decoration: none;
@@ -58,14 +58,14 @@ ul {
 .navegacao__texto {
     font-family: "Dancing Script", cursive;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 1.44rem;
     color: black;
 }
 
 .navegacao__email {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin: 14% 0 0 0;
 }
 
@@ -118,7 +118,7 @@ ul {
 }
 
 .links__texto {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: black;
     margin: 0;
 }
@@ -158,7 +158,7 @@ ul {
 .sobreMim__titulo {
     font-family: "Baskervville", serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.87rem;
 }
 
 .sobreMim__div {
@@ -170,7 +170,7 @@ ul {
 .sobreMim__paragrafo {
     font-family: "News Cycle", sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.56rem;
     margin: 0;
     font-style: italic;
 }
@@ -186,7 +186,7 @@ ul {
     font-family: "Baskervville", serif;
     font-weight: 700;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.87rem;
 }
 
 .quadrosContainer {
@@ -217,7 +217,7 @@ ul {
     font-family: "Baskervville", serif;
     font-weight: 700;
     font-style:oblique;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .htmlImagem {
@@ -260,7 +260,7 @@ ul {
     font-family: "Baskervville", serif;
     font-weight: 700;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.87rem;
 }
 
 .formacaoAcademica {
@@ -286,14 +286,14 @@ ul {
     font-family: "News Cycle", sans-serif;
     font-weight: 700;
     margin: 0;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .lista__paragrafo {
     font-family: "News Cycle", sans-serif;
     font-weight: 400;
     margin: 0;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 /* PROJETOS */
@@ -347,7 +347,7 @@ ul {
     font-family: "Baskervville", serif;
     font-weight: 700;
     color: #232323;
-    font-size: 25px;
+    font-size: 1.56rem;
     margin: 0;
 }
 
@@ -355,7 +355,7 @@ ul {
     font-family: "Baskervville", serif;
     font-weight: 400;
     color: #232323;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0;
 }
 
@@ -386,7 +386,7 @@ ul {
 .link__texto {
     font-family: "Baskervville", serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: italic;
     color: #faff00;
 }
@@ -410,14 +410,14 @@ ul {
 .contato__titulo {
     font-family: "Baskervville", serif;
     font-weight: 700;
-    font-size: 29px;
+    font-size: 1.81rem;
     margin: 0 0 1% 0;
 }
 
 .contato__paragrafo {
     font-family: "Baskervville", serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0 0 0.1% 0;
 }
 
@@ -436,7 +436,7 @@ ul {
     border-radius: 6px;
     font-family: "News Cycle", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 .formulario__textarea {
@@ -447,7 +447,7 @@ ul {
     border-radius: 6px;
     font-family: "News Cycle", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 .formulario__botao {
@@ -456,7 +456,7 @@ ul {
     border-radius: 6px;
     font-family: "Baskervville", serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
     border: solid 1px #1abc9c;
     background-color: #1abc9c;
     color: #fff;
@@ -469,7 +469,7 @@ ul {
     top: 15px;
     font-family: "Baskervville", serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
     pointer-events: none;
 }
 
@@ -478,7 +478,7 @@ ul {
     padding: 1% 0 0 0;
     font-family: "Baskervville", serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 .formulario__botao:hover {
@@ -498,14 +498,14 @@ ul {
 .rodape__autor {
     font-family: "News Cycle", sans-serif;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 1.31rem;
     margin: 1% 0 0 0;
 }
 
 .rodape__ano {
     font-family: "News Cycle", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
     margin: 0 0 1% 0;
 }
 
@@ -538,7 +538,7 @@ ul {
     font-family: "Baskervville", serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 30px;
+    font-size: 1.87rem;
     color: #fff;
 }
 
@@ -546,11 +546,11 @@ ul {
 
 @media (max-width:1030px) {
     .cabecalho__titulo {
-        font-size: 33px;
+        font-size: 2.06rem;
     }
 
     .navegacao__email__media {
-        font-size: 15px;
+        font-size: 0.94rem;
     }
 
     .cabecalho__navegacao {
@@ -569,11 +569,11 @@ ul {
     }
 
     .apresentacao__titulo {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .apresentacao__subtitulo {
-        font-size: 18px;
+        font-size: 1.12rem;
         margin: 3% 2% 3% 0;
     }
 
@@ -583,7 +583,7 @@ ul {
     }
 
     .links__texto {
-        font-size: 13px;
+        font-size: 0.81rem;
     }
     
     .github {
@@ -637,7 +637,7 @@ ul {
     }
 
     .quadro__texto {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     }
 
@@ -657,11 +657,11 @@ ul {
     }
 
     .cabecalho__titulo {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 
     .navegacao__email__media {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .apresentacao {
@@ -681,11 +681,11 @@ ul {
     }
  
     .apresentacao__titulo {
-        font-size: 17px;
+        font-size: 1.06rem;
     }
     
     .apresentacao__subtitulo {
-        font-size: 14px;
+        font-size: 0.87rem;
     }
 
     .links {
@@ -698,19 +698,19 @@ ul {
     }
 
     .sobreMim__titulo {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 
     .sobreMim__paragrafo {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .skill__hobbies__titulo {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 
     .lista__texto {
-        font-size: 15px;
+        font-size: 0.94rem;
     }
 
     .quadrosContainer {
@@ -727,7 +727,7 @@ ul {
     }
 
     .formacao__texto {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 
     .projeto__imagem {
@@ -735,7 +735,7 @@ ul {
     }
 
     .projeto__descricao {
-        font-size: 17px;
+        font-size: 1.06rem;
     }
 
     .projeto__links {
@@ -756,11 +756,11 @@ ul {
     }
 
     .rodape__autor {
-        font-size: 18px;
+        font-size: 1.12rem;
     }
 
     .rodape__ano {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .quadro {
@@ -769,6 +769,6 @@ ul {
     }
 
     .quadro__texto {
-        font-size: 17px;
+        font-size: 1.06rem;
     }
 }
