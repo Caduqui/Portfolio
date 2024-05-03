@@ -51,6 +51,10 @@ ul {
     text-decoration: none;
 }
 
+.navegacao__link:hover {
+    opacity: 0.5;
+}
+
 .navegacao__texto {
     font-family: "Dancing Script", cursive;
     font-weight: 400;
@@ -103,6 +107,10 @@ ul {
 .links__div {
     display: flex;
     gap: 6px;
+}
+
+.links__div:hover {
+    opacity: 0.5;
 }
 
 .links__link {
